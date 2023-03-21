@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* COLORS */
+  /* PRIMARY */
+  --Red: hsl(1, 90%, 64%);
+  --Blue: hsl(219, 85%, 26%);
+
+  /* NEUTRAL */
+  --White: hsl(0, 0%, 100%);
+  --Very-light-grayish-blue: hsl(210, 60%, 98%);
+  --Light-grayish-blue-1: hsl(211, 68%, 94%);
+  --Light-grayish-blue-2: hsl(205, 33%, 90%);
+  --Grayish-blue: hsl(219, 14%, 63%);
+  --Dark-grayish-blue: hsl(219, 12%, 42%);
+  --Very-dark-blue: hsl(224, 21%, 14%);
+}
+body {
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.container {
+  padding: 1rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+header .left {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+header .left .title {
+  font-size: 1.3rem;
+}
+header .left .badge {
+  width: 2rem;
+  height: 1.6rem;
+  background-color: var(--Blue);
+  border-radius: 0.3rem;
+  color: white;
+  text-align: center;
+  font-weight: 800;
+}
+header .right button {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  color: var(--Dark-grayish-blue);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.notification {
+  display: flex;
+  margin-top: 0.7rem;
+  padding: 0.8rem;
+  gap: 0.8rem;
+  border-radius: 0.5rem;
+}
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+}
+.name {
+  color: var(--Very-dark-blue);
+  font-weight: 800;
+}
+.pic {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+}
+.content p:nth-of-type(1) {
+  font-weight: 500;
+  color: var(--Dark-grayish-blue);
+}
+.post {
+  color: var(--Dark-grayish-blue);
+  font-weight: 800;
+  font-family: inherit;
+}
+.club {
+  color: var(--Blue);
+  font-weight: 800;
+}
+.createdTime {
+  color: var(--Grayish-blue);
+  margin-top: 0.2rem;
+}
+.unmarked {
+  background-color: var(--Very-light-grayish-blue);
+}
+.unmarked .markPoint {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: var(--Red);
+  border-radius: 50%;
+  margin-left: 0.3rem;
+}
+.message {
+  border: 2px solid var(--Light-grayish-blue-1);
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  color: var(--Dark-grayish-blue);
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: var(--Very-light-grayish-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    background-color: var(--White);
+    width: 50%;
+    margin: 2.5rem;
+    border-radius: 1rem;
+  }
+  .pic {
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "readed": false,
+      "avatar": "./assets/images/avatar-mark-webber.webp",
+      "name": "Mark Webber",
+      "message": "reacted to your recent post",
+      "extraMessage": {
+        "hasExtraMessage": true,
+        "extraMessageType": "post",
+        "content": "My first tournament today!",
+        "url": "#"
+      },
+      "createdTime": "1m ago"
+    },
+    {
+      "id": 2,
+      "readed": false,
+      "avatar": "./assets/images/avatar-angela-gray.webp",
+      "name": "Angela Gray",
+      "message": "followed you",
+      "extraMessage": { "hasExtraMessage": false },
+      "createdTime": "5m ago"
+    },
+    {
+      "id": 3,
+      "readed": false,
+      "avatar": "./assets/images/avatar-jacob-thompson.webp",
+      "name": "Jacob Thompson",
+      "message": "has joined your group",
+      "extraMessage": {
+        "hasExtraMessage": true,
+        "extraMessageType": "club",
+        "content": "Chess Club",
+        "url": "#"
+      },
+      "createdTime": "1 day ago"
+    },
+    {
+      "id": 4,
+      "readed": true,
+      "avatar": "./assets/images/avatar-rizky-hasanuddin.webp",
+      "name": "Rizky Hasanuddin",
+      "message": "sent you a private message",
+      "extraMessage": {
+        "hasExtraMessage": true,
+        "extraMessageType": "message",
+        "content": "Hello,thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game."
+      },
+      "createdTime": "5 days ago"
+    },
+    {
+      "id": 5,
+      "readed": true,
+      "avatar": "./assets/images/avatar-kimberly-smith.webp",
+      "name": "Kimberly Smith",
+      "message": "commented on your picture",
+      "extraMessage": {
+        "hasExtraMessage": true,
+        "extraMessageType": "picture",
+        "imgUrl": "./assets/images/image-chess.webp"
+      },
+      "createdTime": "1 week ago"
+    },
+    {
+      "id": 6,
+      "readed": true,
+      "avatar": "assets/images/avatar-nathan-peterson.webp",
+      "name": "Nathan Peterson",
+      "message": "reacted to your recent post",
+      "extraMessage": {
+        "hasExtraMessage": true,
+        "extraMessageType": "post",
+        "content": "5 end-game strategies to increase your win rate",
+        "url": "#"
+      },
+      "createdTime": "2 weeks ago"
+    },
+    {
+      "id": 7,
+      "readed": true,
+      "avatar": "./assets/images/avatar-anna-kim.webp",
+      "name": "Anna Kim",
+      "message": "left the group",
+      "extraMessage": {
+        "hasExtraMessage": true,
+        "extraMessageType": "club",
+        "content": "Chess Club",
+        "url": "#"
+      },
+      "createdTime": "2 weeks ago"
+    }
+  ]
+}
