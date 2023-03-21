@@ -69,13 +69,16 @@ function insertNotifications(notifications) {
 
 const button = document.querySelector("button");
 const badge = document.querySelector(".badge");
+
 button.addEventListener("click", markAllAsRead);
 
 function markAllAsRead() {
   badge.textContent = "0";
-  console.log(notifications);
+
+  const notifications = document.querySelectorAll(".notification");
+
   notifications.forEach((notification) => {
+    // console.log(document.querySelectorAll(".notification"));
     notification.classList.remove("unmarked");
-    console.log(notifications);
   });
 }
